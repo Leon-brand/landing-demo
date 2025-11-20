@@ -1,9 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
- /*  base: 'https://Leon-brand.github.io/landing-demo', */
- base: "/landing-demo/"
+  base: "landing-demo/",
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src') // opcional, pero recomendado
+    }
+  }
 })
