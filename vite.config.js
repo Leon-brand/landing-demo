@@ -4,9 +4,10 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: "landing-demo/",
+  base: "/landing-demo/",
   resolve: {
     alias: {
+      // eslint-disable-next-line no-undef
       '@': path.resolve(__dirname, 'src') // opcional, pero recomendado
     }
   }

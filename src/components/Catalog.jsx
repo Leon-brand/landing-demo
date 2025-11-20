@@ -4,22 +4,22 @@ const Catalog = () => {
 
 
   const demoImages = [
-      "../Laser_Die_CutterDigital_Die_Cutter.jpg",
-      "../cnc-machine-tool-industrial.jpg",
-      "../industrial-drill-press-machinery.jpg",
-      "../industrial-grinding-machine-tool.jpg",
-      "../industrial-hydraulic-press-machinery.jpg",
-      "../TOP-330-PLUS-2.png",
-      "../punch-press-industrial-machine.jpg",
-      "../industrial-packaging-machine-equipment.jpg",
-      "../industrial-robotic-assembly-arm.jpg",
-      "../industrial-testing-equipment-machine.jpg",
-      "../punch-press-industrial-machine.jpg",      
-      "../industrial-cutting-machine-tool.jpg",
+      "/landing-demo/Laser_Die_CutterDigital_Die_Cutter.jpg",
+      "/landing-demo/cnc-machine-tool-industrial.jpg",
+      "/landing-demo/industrial-drill-press-machinery.jpg",
+      "/landing-demo/industrial-grinding-machine-tool.jpg",
+      "/landing-demo/industrial-hydraulic-press-machinery.jpg",
+      "/landing-demo/TOP-330-PLUS-2.png",
+      "/landing-demo/punch-press-industrial-machine.jpg",
+      "/landing-demo/industrial-packaging-machine-equipment.jpg",
+      "/landing-demo/industrial-robotic-assembly-arm.jpg",
+      "/landing-demo/industrial-testing-equipment-machine.jpg",
+      "/landing-demo/punch-press-industrial-machine.jpg",      
+      "/landing-demo/industrial-cutting-machine-tool.jpg",
   ]
 
   
-  const href = '../LG-330-TT_Die_Cutting_Machine_For_Blank_Labels.pdf'
+  const href = '/landing-demo/LG-330-TT_Die_Cutting_Machine_For_Blank_Labels.pdf'
   
 
  return (

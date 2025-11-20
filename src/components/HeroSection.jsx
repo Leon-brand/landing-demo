@@ -11,7 +11,7 @@ const HeroSection = () => {
         bg-cover bg-center bg-no-repeat
         "
       style={{
-        backgroundImage: `url('../banner-back.jpg')`,
+        backgroundImage: `url('/landing-demo/banner-back.jpg')`,
       }}>
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
@@ -65,7 +65,7 @@ const HeroSection = () => {
 
     <div className="flex justify-center">
       <img
-        src="../TOP-330-PLUS-2.png"
+        src="/landing-demo/TOP-330-PLUS-2.png"
         alt="Industrial machinery example"
         className="
           w-full max-w-md rounded-xl shadow-xl

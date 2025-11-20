@@ -40,7 +40,7 @@ const ContactSection = () => {
       id="contact" 
       className="py-24 bg-[#0e2956] bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url('../provision-concept.jpg')`,
+        backgroundImage: `url('/landing-demo/provision-concept.jpg')`,
       }}>
       <div className="max-w-7xl mx-auto px-6">
 
@@ -54,7 +54,7 @@ const ContactSection = () => {
 
     <img
       className="mt-1"
-      src="../flag-icon.png"
+      src="/landing-demo/flag-icon.png"
       alt="flag-icon"
       width={65}
       height={65}
@@ -68,19 +68,7 @@ const ContactSection = () => {
 </div>  
 
         {/* FORM WRAPPER */}
-{/*     <div
-      ref={formRef}
-      className={`
-        max-w-3xl mx-auto bg-white/50 backdrop-blur-md p-10 rounded-2xl 
-        shadow-lg border border-white/30 
-        transition-all duration-700
-
-        ${isVisible 
-          ? "opacity-100 translate-y-0 scale-100" 
-          : "opacity-0 translate-y-6 scale-95"}
-      `}
-    > */}
-      <div
+     <div
       ref={formRef} // el div que queremos observar
       className={`
         max-w-3xl mx-auto bg-white/50 backdrop-blur-md p-10 rounded-2xl 
